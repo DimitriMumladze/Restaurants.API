@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj": {}
+    "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants.Application.csproj": {
+    "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants.Application.csproj",
+        "projectUniqueName": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants.Application.csproj",
         "projectName": "Restaurants.Application",
-        "projectPath": "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants.Application.csproj",
+        "projectPath": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants.Application.csproj",
         "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\obj\\",
+        "outputPath": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dimit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj": {
-                "projectPath": "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj"
+              "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj": {
+                "projectPath": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj"
               }
             }
           }
@@ -53,6 +53,14 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
             },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
@@ -79,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj": {
+    "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj",
         "projectName": "Restaurants.Domain",
-        "projectPath": "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj",
+        "projectPath": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj",
         "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\obj\\",
+        "outputPath": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dimit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj": {
+    "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj",
         "projectName": "Restaurants.Infrastructure",
-        "projectPath": "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dimit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -165,8 +173,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants.Application.csproj": {
-                "projectPath": "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants.Application.csproj"
+              "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants.Application.csproj": {
+                "projectPath": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants.Application.csproj"
               }
             }
           }

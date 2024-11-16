@@ -36,3 +36,4 @@ C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.Infrastructur
 C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.pdb
 C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.genruntimeconfig.cache
 C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.Infrastructure\obj\Debug\net8.0\ref\Restaurants.Infrastructure.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.sourcelink.json

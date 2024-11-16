@@ -28,3 +28,4 @@ C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.Application\o
 C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.Application\obj\Debug\net8.0\refint\Restaurants.Application.dll
 C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.pdb
 C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.Application\obj\Debug\net8.0\ref\Restaurants.Application.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.sourcelink.json

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj": {}
+    "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj": {
+    "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj",
         "projectName": "Restaurants.Domain",
-        "projectPath": "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj",
+        "projectPath": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Restaurants.Domain.csproj",
         "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dimit\\Desktop\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\obj\\",
+        "outputPath": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dimit\\AppData\\Roaming\\NuGet\\NuGet.Config",

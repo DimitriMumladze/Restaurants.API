@@ -286,3 +286,9 @@ C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.API\obj\Debug
 C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.API\obj\Debug\net8.0\Restaurants.API.pdb
 C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.API\obj\Debug\net8.0\Restaurants.API.genruntimeconfig.cache
 C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.API\obj\Debug\net8.0\ref\Restaurants.API.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\obj\Debug\net8.0\Restaurants.API.sourcelink.json
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\MediatR.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\MediatR.Contracts.dll
