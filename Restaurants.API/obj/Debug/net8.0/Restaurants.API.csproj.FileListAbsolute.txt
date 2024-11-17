@@ -292,3 +292,12 @@ C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.AP
 C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\MediatR.dll
 C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\Serilog.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
