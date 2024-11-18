@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73FCB043-9EE2-4325-82FE-2ABE8055240C}|Restaurants.Domain\\Restaurants.Domain.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.domain\\exceptions\\notfoundexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73FCB043-9EE2-4325-82FE-2ABE8055240C}|Restaurants.Domain\\Restaurants.Domain.csproj|solutionrelative:restaurants.domain\\exceptions\\notfoundexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBA03F84-A760-4AE6-AF06-F50B0CCEFB4F}|Restaurants.API\\Restaurants.API.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.api\\middlewares\\requesttimeloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA03F84-A760-4AE6-AF06-F50B0CCEFB4F}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\middlewares\\requesttimeloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NotFoundExceptions.cs",
-              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Exceptions\\NotFoundExceptions.cs",
-              "RelativeDocumentMoniker": "Restaurants.Domain\\Exceptions\\NotFoundExceptions.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Exceptions\\NotFoundExceptions.cs",
-              "RelativeToolTip": "Restaurants.Domain\\Exceptions\\NotFoundExceptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABCAAAAAAAAAA==",
+              "Title": "RequestTimeLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.API\\Middlewares\\RequestTimeLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Restaurants.API\\Middlewares\\RequestTimeLoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.API\\Middlewares\\RequestTimeLoggingMiddleware.cs",
+              "RelativeToolTip": "Restaurants.API\\Middlewares\\RequestTimeLoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T11:22:08.871Z",
+              "WhenOpened": "2024-11-18T11:39:35.136Z",
               "EditorCaption": ""
             }
           ]
