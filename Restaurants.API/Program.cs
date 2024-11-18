@@ -7,11 +7,14 @@ using Restaurants.Application.Extensions;
 using Microsoft.Extensions.Hosting;
 using Serilog;
 using Serilog.Events;
+using Restaurants.API.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+
+builder.Services.AddScoped<ErrorHandlingMiddleware>();
 
 // Add Swagger services
 builder.Services.AddEndpointsApiExplorer();
@@ -27,6 +30,8 @@ builder.Host.UseSerilog((context, configuration) =>
     configuration.ReadFrom.Configuration(context.Configuration)
 );
 var app = builder.Build();
+
+app.UseMiddleware<ErrorHandlingMiddleware>();
 
 //Seeder
 var scope = app.Services.CreateScope();
