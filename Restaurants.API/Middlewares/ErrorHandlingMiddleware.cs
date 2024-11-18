@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using Restaurants.Domain.Exceptions;
 using System;
 using System.Threading.Tasks;
 
 namespace Restaurants.API.Middlewares
 {
-    public class ErrorHandlingMiddleware(ILogger logger) : IMiddleware
+    public class ErrorHandlingMiddleware(ILogger<ErrorHandlingMiddleware> logger) : IMiddleware
     {
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
@@ -13,7 +14,15 @@ namespace Restaurants.API.Middlewares
             {
                 await next.Invoke(context);
 
-            } catch(Exception ex)
+            }
+            catch(NotFoundExceptions notFound)
+            {
+                context.Response.StatusCode = 404;
+                await context.Response.WriteAsync(notFound.Message);
+
+                logger.LogWarning(notFound.Message);
+            }
+            catch(Exception ex)
             {
                 logger.LogError(ex, ex.Message);
 

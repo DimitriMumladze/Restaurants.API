@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace Restaurants.Application.Restaurants.Commands.UpdateRestaurant;
 
-public class UpdateRestaurantCommand() : IRequest<bool>
+public class UpdateRestaurantCommand() : IRequest
 {
     [BindNever]
     public int Id { get; set; }

@@ -29,6 +29,7 @@ builder.Services.AddApplication();
 builder.Host.UseSerilog((context, configuration) =>
     configuration.ReadFrom.Configuration(context.Configuration)
 );
+
 var app = builder.Build();
 
 app.UseMiddleware<ErrorHandlingMiddleware>();
