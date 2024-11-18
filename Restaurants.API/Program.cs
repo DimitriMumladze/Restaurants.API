@@ -15,6 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 builder.Services.AddScoped<ErrorHandlingMiddleware>();
+builder.Services.AddScoped<RequestTimeLoggingMiddleware>();
 
 // Add Swagger services
 builder.Services.AddEndpointsApiExplorer();
@@ -33,6 +34,7 @@ builder.Host.UseSerilog((context, configuration) =>
 var app = builder.Build();
 
 app.UseMiddleware<ErrorHandlingMiddleware>();
+app.UseMiddleware<RequestTimeLoggingMiddleware>();
 
 //Seeder
 var scope = app.Services.CreateScope();
