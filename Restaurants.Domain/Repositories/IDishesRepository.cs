@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Restaurants.Domain.Entities;
 
-namespace Restaurants.Domain.Repositories
+namespace Restaurants.Domain.Repositories;
+
+public interface IDishesRepository
 {
-    internal interface IDishesRepository
-    {
-    }
+    Task<int> Create(Dish entity);
 }

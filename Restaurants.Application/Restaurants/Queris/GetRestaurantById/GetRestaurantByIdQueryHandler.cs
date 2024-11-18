@@ -15,7 +15,7 @@ public class GetRestaurantByIdQueryHandler(ILogger<GetRestaurantByIdQueryHandler
     {
         logger.LogInformation("Getting all restaurants {Restaurant.Id}!", request.Id);
         var restaurant = await restaurantsRepository.GetByIdAsync(request.Id)
-            ?? throw new NotFoundExceptions(nameof(Restaurant), request.Id.ToString()); //aqedan modis exception
+            ?? throw new NotFoundException(nameof(Restaurant), request.Id.ToString()); //aqedan modis exception
         var restaurantDto = mapper.Map<RestaurantDto>(restaurant);
 
         return restaurantDto;

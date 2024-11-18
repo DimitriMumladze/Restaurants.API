@@ -16,7 +16,7 @@ public class DeleteRestaurantCommandHandler(ILogger<DeleteRestaurantCommandHandl
         var restaurant = await restaurantsRepository.GetByIdAsync(request.Id);
 
         if (restaurant == null)
-            throw new NotFoundExceptions(nameof(Restaurant), request.Id.ToString()); //aqedan modis exception
+            throw new NotFoundException(nameof(Restaurant), request.Id.ToString()); //aqedan modis exception
 
         await restaurantsRepository.Delete(restaurant);
     }

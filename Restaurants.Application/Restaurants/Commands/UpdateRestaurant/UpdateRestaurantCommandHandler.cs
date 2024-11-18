@@ -17,7 +17,7 @@ public class UpdateRestaurantCommandHandler(ILogger<UpdateRestaurantCommandHandl
         var restaurant = await restaurantsRepository.GetByIdAsync(request.Id);
 
         if (restaurant == null)
-            throw new NotFoundExceptions(nameof(Restaurant), request.Id.ToString()); //aqedan modis exception
+            throw new NotFoundException(nameof(Restaurant), request.Id.ToString()); //aqedan modis exception
         mapper.Map(request, restaurant);
         //restaurant.Name = request.Name;
         //restaurant.Description = request.Description;
