@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace Restaurants.Application.Dishes.Commands.CreateDishes;
 
-public class CreateDishCommand : IRequest
+public class CreateDishCommand : IRequest<int>
 {
     public string? Name { get; set; }
     public string? Description { get; set; }
