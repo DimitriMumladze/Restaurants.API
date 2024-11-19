@@ -239,6 +239,32 @@
   },
   {
     "ContainingType": "Restaurants.API.Controllers.DishesController",
+    "Method": "DeleteAllDishesForRestaurant",
+    "RelativePath": "api/restaurants/{restaurantId}/dishes",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "restaurantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Restaurants.Application.Dishes.Dtos.DishDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Restaurants.API.Controllers.DishesController",
     "Method": "GetByIdForRestaurant",
     "RelativePath": "api/restaurants/{restaurantId}/dishes/{dishId}",
     "HttpMethod": "GET",
