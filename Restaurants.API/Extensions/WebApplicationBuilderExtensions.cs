@@ -8,6 +8,7 @@ using Restaurants.Domain.Entities;
 using Microsoft.Extensions.Hosting;
 using Restaurants.Infrastructure.Seeders;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 
 namespace Restaurants.API.Extensions;
 
@@ -84,7 +85,9 @@ public static class WebApplicationBuilderExtensions
         app.MapControllers();
 
         // Configure Identity
-        app.MapGroup("api/identity").MapIdentityApi<User>();
+        app.MapGroup("api/identity")
+            .WithTags("Identity")
+            .MapIdentityApi<User>();
 
         return app;
     }
