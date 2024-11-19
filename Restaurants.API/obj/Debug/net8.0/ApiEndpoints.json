@@ -210,5 +210,62 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Restaurants.API.Controllers.DishesController",
+    "Method": "GetAllForRestaurant",
+    "RelativePath": "api/restaurants/{restaurantId}/dishes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "restaurantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Restaurants.Application.Dishes.Dtos.DishDto, Restaurants.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Restaurants.API.Controllers.DishesController",
+    "Method": "GetByIdForRestaurant",
+    "RelativePath": "api/restaurants/{restaurantId}/dishes/{dishId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "restaurantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dishId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Restaurants.Application.Dishes.Dtos.DishDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

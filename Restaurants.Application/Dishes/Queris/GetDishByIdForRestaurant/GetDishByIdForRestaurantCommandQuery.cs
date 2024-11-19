@@ -8,11 +8,11 @@ using Restaurants.Domain.Repositories;
 
 namespace Restaurants.Application.Dishes.Queris.GetDishByIdForRestaurant;
 
-public class GetDishByIdForRestaurantCommandHandler(ILogger<GetDishByIdForRestaurantCommandHandler> logger,
+public class GetDishByIdForRestaurantCommandQuery(ILogger<GetDishByIdForRestaurantCommandQuery> logger,
     IMapper mapper,
-    IRestaurantsRepository restaurantsRepository) : IRequestHandler<GetDishByIdForRestaurantCommand, DishDto>
+    IRestaurantsRepository restaurantsRepository) : IRequestHandler<GetDishByIdForRestaurantQuery, DishDto>
 {
-    public async Task<DishDto> Handle(GetDishByIdForRestaurantCommand request, CancellationToken cancellationToken)
+    public async Task<DishDto> Handle(GetDishByIdForRestaurantQuery request, CancellationToken cancellationToken)
     {
         logger.LogInformation
             ("Retriving dish: {DishId}, for restaurant with id {RestaurantId}", request.DishId, request.RestaurantId);
