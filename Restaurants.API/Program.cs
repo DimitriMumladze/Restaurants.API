@@ -16,14 +16,32 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllers();
 
+// Add Identity access
+builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddScoped<ErrorHandlingMiddleware>();
 builder.Services.AddScoped<RequestTimeLoggingMiddleware>();
 
-// Add Swagger services
-builder.Services.AddEndpointsApiExplorer();
+// Add Swagger services => {updated when I installed the Identity}
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Restaurants API", Version = "v1" });
+    //c.SwaggerDoc("v1", new OpenApiInfo { Title = "Restaurants API", Version = "v1" });
+    c.AddSecurityDefinition("bearerAuth",new OpenApiSecurityScheme()
+    {
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer"
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement()
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "bearerAuth" }
+            },
+            []
+        }
+    });
 });
 
 // Add this line here, before building the app
@@ -58,6 +76,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 //Identity
-app.MapIdentityApi<User>();
+app.MapGroup("api/identity").MapIdentityApi<User>();
 
 app.Run();
