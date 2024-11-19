@@ -301,3 +301,4 @@ C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.AP
 C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

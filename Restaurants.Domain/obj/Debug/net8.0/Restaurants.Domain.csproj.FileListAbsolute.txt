@@ -21,3 +21,4 @@ C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.Domain\obj\De
 C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.pdb
 C:\Users\dimit\Desktop\dot-net-projs\RestaurantProject\Restaurants.Domain\obj\Debug\net8.0\ref\Restaurants.Domain.dll
 C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.sourcelink.json
+C:\Users\dimit\Desktop\AllFolders\dot-net-projs\RestaurantProject\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.csproj.AssemblyReference.cache
