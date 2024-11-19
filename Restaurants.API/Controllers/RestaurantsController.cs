@@ -1,16 +1,13 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
-using Restaurants.Application.Restaurants;
 using Restaurants.Application.Restaurants.Commands.CreateRestaurant;
 using Restaurants.Application.Restaurants.Commands.DeleteRestaurant;
 using Restaurants.Application.Restaurants.Commands.UpdateRestaurant;
 using Restaurants.Application.Restaurants.Dtos;
 using Restaurants.Application.Restaurants.Queris.GetAllRestaurants;
 using Restaurants.Application.Restaurants.Queris.GetRestaurantById;
-using Restaurants.Domain.Repositories;
-using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -18,9 +15,12 @@ namespace Restaurants.API.Controllers;
 
 [Controller]
 [Route("api/restaurants")]
+[Authorize]
 public class RestaurantsController(IMediator mediator) : ControllerBase
 {
     [HttpGet]
+    //[AllowAnonymous] 
+    //That will be allowed without Authorize
     public async Task<ActionResult<IEnumerable<RestaurantDto>>> GetAll()
     {
         var restaurants = await mediator.Send(new GetAllRestaurantsQuery());
