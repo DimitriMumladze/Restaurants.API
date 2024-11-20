@@ -341,7 +341,23 @@
     "Parameters": [
       {
         "Name": "command",
-        "Type": "Restaurants.Application.Users.Commands.UpdateUserDetailsCommand",
+        "Type": "Restaurants.Application.Users.Commands.UpdateUserDetails.UpdateUserDetailsCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Restaurants.API.Controllers.IdentityController",
+    "Method": "AssignUserRole",
+    "RelativePath": "api/identity/userRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Restaurants.Application.Users.Commands.AssignUserRole.AssignUserRoleCommand",
         "IsRequired": true
       }
     ],
