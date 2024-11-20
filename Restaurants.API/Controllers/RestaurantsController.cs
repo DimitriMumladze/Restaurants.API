@@ -8,6 +8,7 @@ using Restaurants.Application.Restaurants.Commands.UpdateRestaurant;
 using Restaurants.Application.Restaurants.Dtos;
 using Restaurants.Application.Restaurants.Queris.GetAllRestaurants;
 using Restaurants.Application.Restaurants.Queris.GetRestaurantById;
+using Restaurants.Domain.Constants;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -44,8 +45,10 @@ public class RestaurantsController(IMediator mediator) : ControllerBase
     }
 
     [HttpPatch]
+    [Authorize(Roles = UserRoles.Owner)] // Primary version of Authorization
     public async Task<IActionResult> CreateRestaurant(CreateRestaurantCommand command)
     {
+        User.IsInRole("String");// Second version of Authorization
         int id = await mediator.Send(command);
         return CreatedAtAction(nameof(GetById), new { id }, null);
     }
