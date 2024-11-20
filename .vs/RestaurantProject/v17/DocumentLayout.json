@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBA03F84-A760-4AE6-AF06-F50B0CCEFB4F}|Restaurants.API\\Restaurants.API.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.api\\extensions\\webapplicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBA03F84-A760-4AE6-AF06-F50B0CCEFB4F}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\extensions\\webapplicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBA03F84-A760-4AE6-AF06-F50B0CCEFB4F}|Restaurants.API\\Restaurants.API.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBA03F84-A760-4AE6-AF06-F50B0CCEFB4F}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.infrastructure\\seeders\\restaurantseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\seeders\\restaurantseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WebApplicationBuilderExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.API\\Extensions\\WebApplicationBuilderExtensions.cs",
-              "RelativeDocumentMoniker": "Restaurants.API\\Extensions\\WebApplicationBuilderExtensions.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.API\\Extensions\\WebApplicationBuilderExtensions.cs*",
-              "RelativeToolTip": "Restaurants.API\\Extensions\\WebApplicationBuilderExtensions.cs*",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAYwFkAAAAMAAAAAAAAAA==",
+              "Title": "RestaurantSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Seeders\\RestaurantSeeder.cs",
+              "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Seeders\\RestaurantSeeder.cs",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Seeders\\RestaurantSeeder.cs",
+              "RelativeToolTip": "Restaurants.Infrastructure\\Seeders\\RestaurantSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:57:30.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.API\\Program.cs",
-              "RelativeDocumentMoniker": "Restaurants.API\\Program.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.API\\Program.cs",
-              "RelativeToolTip": "Restaurants.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:57:27.227Z",
+              "WhenOpened": "2024-11-20T05:02:56.608Z",
               "EditorCaption": ""
             }
           ]
