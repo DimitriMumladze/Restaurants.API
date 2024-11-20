@@ -333,6 +333,22 @@
   },
   {
     "ContainingType": "Restaurants.API.Controllers.IdentityController",
+    "Method": "UnassignUserRole",
+    "RelativePath": "api/identity/UnassignUserRole",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Restaurants.Application.Users.Commands.UnassaignUserRole.UnassaignUserRoleCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Restaurants.API.Controllers.IdentityController",
     "Method": "UpdateDetails",
     "RelativePath": "api/identity/user",
     "HttpMethod": "PATCH",
