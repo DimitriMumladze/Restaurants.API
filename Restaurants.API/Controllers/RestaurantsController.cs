@@ -9,6 +9,7 @@ using Restaurants.Application.Restaurants.Dtos;
 using Restaurants.Application.Restaurants.Queris.GetAllRestaurants;
 using Restaurants.Application.Restaurants.Queris.GetRestaurantById;
 using Restaurants.Domain.Constants;
+using Restaurants.Infrastructure.Authorization;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -28,6 +29,8 @@ public class RestaurantsController(IMediator mediator) : ControllerBase
         return Ok(restaurants);
     }
     [HttpGet("{id}")]
+    // Adding Claim basec access control
+    [Authorize(Policy = PolicyNames.HasNationality)]
     public async Task<ActionResult<RestaurantDto?>> GetById([FromRoute] int id)
     {
         var restaurants = await mediator.Send(new GetRestaurantByIdQuery(id));
