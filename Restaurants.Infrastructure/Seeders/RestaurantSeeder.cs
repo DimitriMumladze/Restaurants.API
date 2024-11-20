@@ -18,7 +18,7 @@ internal class RestaurantSeeder(RestaurantsDbContext dbContext) : IRestaurantSee
                 await dbContext.SaveChangesAsync();
             }
             // Check whether there are any roles definition in the Dbset provided by DbContext
-            if(dbContext.Roles.Any())
+            if(!dbContext.Roles.Any())
             {
                 var roles = GetRoles();
                 dbContext.Roles.AddRange(roles);
