@@ -16,7 +16,7 @@ public class RestaurantsUserClaimsPrincipalFactory(UserManager<User> userManager
 
         if(user.Nationality != null)
         {
-            id.AddClaim(new Claim(AppClaimTypes.HasNationality, user.Nationality));
+            id.AddClaim(new Claim(AppClaimTypes.Nationality, user.Nationality));
         }
 
         if(user.DateOfBirth != null)

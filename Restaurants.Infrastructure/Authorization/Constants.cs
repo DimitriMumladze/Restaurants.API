@@ -7,6 +7,6 @@ public static class PolicyNames
 
 public static class AppClaimTypes
 {
-    public const string HasNationality = "HasNationality";
+    public const string Nationality = "HasNationality";
     public const string DateOfBirth = "DateOfBirth";
 }
