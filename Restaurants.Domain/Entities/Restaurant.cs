@@ -15,4 +15,8 @@ public class Restaurant
     //Here is Their address and list of dishes
     public Address? Address { get; set; }
     public List<Dish> Dishes { get; set; } = [];
+
+    //Owner
+    public User Owner { get; set; } = default!;
+    public string OwnerId { get; set; } = default!;
 }

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73FCB043-9EE2-4325-82FE-2ABE8055240C}|Restaurants.Domain\\Restaurants.Domain.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.domain\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FCB043-9EE2-4325-82FE-2ABE8055240C}|Restaurants.Domain\\Restaurants.Domain.csproj|solutionrelative:restaurants.domain\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACUAAABPAAAAAAAAAA==",
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Entities\\Restaurant.cs",
+              "RelativeDocumentMoniker": "Restaurants.Domain\\Entities\\Restaurant.cs",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Entities\\Restaurant.cs",
+              "RelativeToolTip": "Restaurants.Domain\\Entities\\Restaurant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T04:45:53.631Z",
+              "WhenOpened": "2024-11-21T05:09:28.216Z",
               "EditorCaption": ""
             }
           ]
