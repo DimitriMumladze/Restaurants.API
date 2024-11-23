@@ -22,10 +22,9 @@ public class DeleteRestaurantCommandHandler(ILogger<DeleteRestaurantCommandHandl
         if (restaurant == null)
             throw new NotFoundException(nameof(Restaurant), request.Id.ToString()); //aqedan modis exception
 
-        if(!restaurantAuthorizationService.Authorize(restaurant, ResourceOperation.Delete))
-        {
+        if (!restaurantAuthorizationService.Authorize(restaurant, ResourceOperation.Delete))
             throw new ForbidException();
-        }
+        
 
         await restaurantsRepository.Delete(restaurant);
     }
