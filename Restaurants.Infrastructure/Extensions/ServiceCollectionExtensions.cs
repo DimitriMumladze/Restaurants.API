@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Restaurants.Application.Users;
 using Restaurants.Domain.Entities;
 using Restaurants.Domain.Interfaces;
 using Restaurants.Domain.Repositories;
@@ -24,6 +25,7 @@ public static class ServiceCollectionExtensions
         .EnableSensitiveDataLogging());
 
         // Identity
+        services.AddScoped<UserContext>();
         services.AddIdentityApiEndpoints<User>()
             .AddRoles<IdentityRole>() // Requires Role based authorization
             .AddClaimsPrincipalFactory<RestaurantsUserClaimsPrincipalFactory>() // Add new Claims

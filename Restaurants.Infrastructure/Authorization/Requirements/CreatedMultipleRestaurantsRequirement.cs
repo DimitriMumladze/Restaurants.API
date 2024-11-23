@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Authorization;
 
-namespace Restaurants.Infrastructure.Authorization.Requirements
+namespace Restaurants.Infrastructure.Authorization.Requirements;
+
+public class CreatedMultipleRestaurantsRequirement(int minimumRestaurantsCreated) : IAuthorizationRequirement
 {
-    class CreatedMultipleRestaurantsRequirement
-    {
-    }
+    public int MinimumRestaurantsCreated { get; } = minimumRestaurantsCreated;
 }
