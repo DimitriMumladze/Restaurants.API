@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919EB01F-BB41-4DDC-B6EE-41A367E96772}|Restaurants.Application\\Restaurants.Application.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.application\\users\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{919EB01F-BB41-4DDC-B6EE-41A367E96772}|Restaurants.Application\\Restaurants.Application.csproj|solutionrelative:restaurants.application\\users\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73FCB043-9EE2-4325-82FE-2ABE8055240C}|Restaurants.Domain\\Restaurants.Domain.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.domain\\interfaces\\irestaurantauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73FCB043-9EE2-4325-82FE-2ABE8055240C}|Restaurants.Domain\\Restaurants.Domain.csproj|solutionrelative:restaurants.domain\\interfaces\\irestaurantauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.infrastructure\\authorization\\requirements\\createdmultiplerestaurantsrequirementhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\authorization\\requirements\\createdmultiplerestaurantsrequirementhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.infrastructure\\authorization\\requirements\\createdmultiplerestaurantsrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\authorization\\requirements\\createdmultiplerestaurantsrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.infrastructure\\authorization\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\authorization\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FCB043-9EE2-4325-82FE-2ABE8055240C}|Restaurants.Domain\\Restaurants.Domain.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.domain\\interfaces\\irestaurantauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FCB043-9EE2-4325-82FE-2ABE8055240C}|Restaurants.Domain\\Restaurants.Domain.csproj|solutionrelative:restaurants.domain\\interfaces\\irestaurantauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{919EB01F-BB41-4DDC-B6EE-41A367E96772}|Restaurants.Application\\Restaurants.Application.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.application\\users\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{919EB01F-BB41-4DDC-B6EE-41A367E96772}|Restaurants.Application\\Restaurants.Application.csproj|solutionrelative:restaurants.application\\users\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.infrastructure\\authorization\\services\\restaurantauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,8 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Authorization\\Constants.cs",
+              "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Authorization\\Constants.cs",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Authorization\\Constants.cs",
+              "RelativeToolTip": "Restaurants.Infrastructure\\Authorization\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:12:57.414Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -50,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "UserContext.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Users\\UserContext.cs",
               "RelativeDocumentMoniker": "Restaurants.Application\\Users\\UserContext.cs",
@@ -67,42 +84,42 @@
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs*",
-              "RelativeToolTip": "Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAApwCwAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T13:44:32.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "CreatedMultipleRestaurantsRequirementHandler.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Authorization\\Requirements\\CreatedMultipleRestaurantsRequirementHandler.cs",
               "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Authorization\\Requirements\\CreatedMultipleRestaurantsRequirementHandler.cs",
               "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Authorization\\Requirements\\CreatedMultipleRestaurantsRequirementHandler.cs",
               "RelativeToolTip": "Restaurants.Infrastructure\\Authorization\\Requirements\\CreatedMultipleRestaurantsRequirementHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T13:34:43.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "CreatedMultipleRestaurantsRequirement.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Authorization\\Requirements\\CreatedMultipleRestaurantsRequirement.cs",
               "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Authorization\\Requirements\\CreatedMultipleRestaurantsRequirement.cs",
               "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Authorization\\Requirements\\CreatedMultipleRestaurantsRequirement.cs",
               "RelativeToolTip": "Restaurants.Infrastructure\\Authorization\\Requirements\\CreatedMultipleRestaurantsRequirement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T13:33:10.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RestaurantAuthorizationService.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Authorization\\Services\\RestaurantAuthorizationService.cs",
               "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Authorization\\Services\\RestaurantAuthorizationService.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "RestaurantsUserClaimsPrincipalFactory.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Authorization\\RestaurantsUserClaimsPrincipalFactory.cs",
               "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Authorization\\RestaurantsUserClaimsPrincipalFactory.cs",
@@ -128,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IRestaurantAuthorizationService.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Interfaces\\IRestaurantAuthorizationService.cs",
               "RelativeDocumentMoniker": "Restaurants.Domain\\Interfaces\\IRestaurantAuthorizationService.cs",
