@@ -9,4 +9,6 @@ public interface IRestaurantsRepository
     Task<int> Create(Restaurant entity);
     Task Delete (Restaurant entity);
     Task SaveChanges();
+    //pagination for name matching
+    Task<IEnumerable<Restaurant>> GetAllMatchingAsync(string? searchPhase);
 }
