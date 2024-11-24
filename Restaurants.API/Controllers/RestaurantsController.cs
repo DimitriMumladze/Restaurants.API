@@ -25,7 +25,7 @@ public class RestaurantsController(IMediator mediator) : ControllerBase
     //That will be allowed without Authorize
     public async Task<ActionResult<IEnumerable<RestaurantDto>>> GetAll([FromRoute] GetAllRestaurantsQuery query)
     {
-        var restaurants = await mediator.Send(new GetAllRestaurantsQuery());
+        var restaurants = await mediator.Send(query);  
         return Ok(restaurants);
     }
     [HttpGet("{id}")]
