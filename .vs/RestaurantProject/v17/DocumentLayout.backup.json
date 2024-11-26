@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.infrastructure\\repositories\\restaurantsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\repositories\\restaurantsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBA03F84-A760-4AE6-AF06-F50B0CCEFB4F}|Restaurants.API\\Restaurants.API.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.api\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA03F84-A760-4AE6-AF06-F50B0CCEFB4F}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919EB01F-BB41-4DDC-B6EE-41A367E96772}|Restaurants.Application\\Restaurants.Application.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.application\\restaurants\\queris\\getallrestaurants\\getallrestaurantsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{919EB01F-BB41-4DDC-B6EE-41A367E96772}|Restaurants.Application\\Restaurants.Application.csproj|solutionrelative:restaurants.application\\restaurants\\queris\\getallrestaurants\\getallrestaurantsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.infrastructure\\repositories\\restaurantsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\repositories\\restaurantsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73FCB043-9EE2-4325-82FE-2ABE8055240C}|Restaurants.Domain\\Restaurants.Domain.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.domain\\repositories\\irestaurantsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FCB043-9EE2-4325-82FE-2ABE8055240C}|Restaurants.Domain\\Restaurants.Domain.csproj|solutionrelative:restaurants.domain\\repositories\\irestaurantsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.infrastructure\\persistence\\restaurantsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\persistence\\restaurantsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{919EB01F-BB41-4DDC-B6EE-41A367E96772}|Restaurants.Application\\Restaurants.Application.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.application\\restaurants\\queris\\getallrestaurants\\getallrestaurantsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{919EB01F-BB41-4DDC-B6EE-41A367E96772}|Restaurants.Application\\Restaurants.Application.csproj|solutionrelative:restaurants.application\\restaurants\\queris\\getallrestaurants\\getallrestaurantsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBA03F84-A760-4AE6-AF06-F50B0CCEFB4F}|Restaurants.API\\Restaurants.API.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.api\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBA03F84-A760-4AE6-AF06-F50B0CCEFB4F}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{919EB01F-BB41-4DDC-B6EE-41A367E96772}|Restaurants.Application\\Restaurants.Application.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.application\\restaurants\\queris\\getallrestaurants\\getallrestaurantsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{919EB01F-BB41-4DDC-B6EE-41A367E96772}|Restaurants.Application\\Restaurants.Application.csproj|solutionrelative:restaurants.application\\restaurants\\queris\\getallrestaurants\\getallrestaurantsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|c:\\users\\dimit\\desktop\\allfolders\\dot-net-projs\\restaurantproject\\restaurants.infrastructure\\persistence\\restaurantsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AB162B-20E7-420F-928B-47A4627D1EC7}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\persistence\\restaurantsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,41 +34,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllRestaurantsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants\\Queris\\GetAllRestaurants\\GetAllRestaurantsQuery.cs",
+              "RelativeDocumentMoniker": "Restaurants.Application\\Restaurants\\Queris\\GetAllRestaurants\\GetAllRestaurantsQuery.cs",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants\\Queris\\GetAllRestaurants\\GetAllRestaurantsQuery.cs",
+              "RelativeToolTip": "Restaurants.Application\\Restaurants\\Queris\\GetAllRestaurants\\GetAllRestaurantsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T15:52:14.583Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "IRestaurantsRepository.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Repositories\\IRestaurantsRepository.cs",
               "RelativeDocumentMoniker": "Restaurants.Domain\\Repositories\\IRestaurantsRepository.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Repositories\\IRestaurantsRepository.cs*",
-              "RelativeToolTip": "Restaurants.Domain\\Repositories\\IRestaurantsRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABLAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Domain\\Repositories\\IRestaurantsRepository.cs",
+              "RelativeToolTip": "Restaurants.Domain\\Repositories\\IRestaurantsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T14:21:27.292Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RestaurantsRepository.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Repositories\\RestaurantsRepository.cs",
               "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Repositories\\RestaurantsRepository.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Repositories\\RestaurantsRepository.cs*",
-              "RelativeToolTip": "Restaurants.Infrastructure\\Repositories\\RestaurantsRepository.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCIAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Repositories\\RestaurantsRepository.cs",
+              "RelativeToolTip": "Restaurants.Infrastructure\\Repositories\\RestaurantsRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T14:15:11.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "RestaurantsDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Infrastructure\\Persistence\\RestaurantsDbContext.cs",
               "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Persistence\\RestaurantsDbContext.cs",
@@ -77,26 +98,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GetAllRestaurantsQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants\\Queris\\GetAllRestaurants\\GetAllRestaurantsQueryHandler.cs",
               "RelativeDocumentMoniker": "Restaurants.Application\\Restaurants\\Queris\\GetAllRestaurants\\GetAllRestaurantsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants\\Queris\\GetAllRestaurants\\GetAllRestaurantsQueryHandler.cs*",
-              "RelativeToolTip": "Restaurants.Application\\Restaurants\\Queris\\GetAllRestaurants\\GetAllRestaurantsQueryHandler.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABoAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.Application\\Restaurants\\Queris\\GetAllRestaurants\\GetAllRestaurantsQueryHandler.cs",
+              "RelativeToolTip": "Restaurants.Application\\Restaurants\\Queris\\GetAllRestaurants\\GetAllRestaurantsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T14:06:39.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "RestaurantsController.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.API\\Controllers\\RestaurantsController.cs",
               "RelativeDocumentMoniker": "Restaurants.API\\Controllers\\RestaurantsController.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.API\\Controllers\\RestaurantsController.cs",
-              "RelativeToolTip": "Restaurants.API\\Controllers\\RestaurantsController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAABZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\AllFolders\\dot-net-projs\\RestaurantProject\\Restaurants.API\\Controllers\\RestaurantsController.cs*",
+              "RelativeToolTip": "Restaurants.API\\Controllers\\RestaurantsController.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T14:05:54.829Z",
               "EditorCaption": ""

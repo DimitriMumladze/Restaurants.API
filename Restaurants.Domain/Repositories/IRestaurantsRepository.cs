@@ -10,5 +10,5 @@ public interface IRestaurantsRepository
     Task Delete (Restaurant entity);
     Task SaveChanges();
     //pagination for name matching
-    Task<IEnumerable<Restaurant>> GetAllMatchingAsync(string? searchPhase);
+    Task<IEnumerable<Restaurant>> GetAllMatchingAsync(string? searchPhase, int pageSize, int pageNumber);
 }

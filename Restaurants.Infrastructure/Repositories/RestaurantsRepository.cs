@@ -27,7 +27,7 @@ internal class RestaurantsRepository(RestaurantsDbContext dbContext)
         return restaurants;
     }
     //Pagination
-    public async Task<IEnumerable<Restaurant>> GetAllMatchingAsync(string? searchPhase)
+    public async Task<IEnumerable<Restaurant>> GetAllMatchingAsync(string? searchPhase, int pageSize, int pageNumber)
     {
         var searchPhaseLower = searchPhase?.ToLower();
 
@@ -35,7 +35,10 @@ internal class RestaurantsRepository(RestaurantsDbContext dbContext)
             .Restaurants
             .Where(r => searchPhaseLower == null || (r.Name.ToLower().Contains(searchPhaseLower)
                                                  || r.Description.ToLower().Contains(searchPhaseLower)))
+            .Skip(pageSize * (pageNumber - 1))
+            .Take(pageSize)
             .ToListAsync();
+
         return restaurants;
     }
     public async Task<Restaurant?> GetByIdAsync(int id)
